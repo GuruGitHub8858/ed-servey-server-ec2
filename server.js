@@ -30,6 +30,12 @@ app.use("/api/auth", authRoutes)
 app.use("/api/users", userRoutes)
 app.use("/api/surveys", surveyRoutes)
 
+app.use("/api/sindhuu", (req, res) => {
+  return res.status(200).json({
+    message: "This is sindhuuuuuuuu"
+  })
+})
+
 // Serve static assets in production
 if (process.env.NODE_ENV === "production") {
   // Set static folder
