@@ -32,7 +32,7 @@ app.use("/api/surveys", surveyRoutes)
 
 app.use("/api/sindhuu", (req, res) => {
   return res.status(200).json({
-    message: "This is sindhuuuuuuuu"
+    message: "This is sindhuuuuuuuu and guru speaking"
   })
 })
 
