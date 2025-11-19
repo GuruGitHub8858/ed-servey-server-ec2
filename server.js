@@ -32,7 +32,7 @@ app.use("/api/surveys", surveyRoutes)
 
 app.use("/api/happy", (req, res) => {
   return res.status(200).json({
-    message: "Yellowmatics"
+    message: "sound is great guy"
   })
 })
 
